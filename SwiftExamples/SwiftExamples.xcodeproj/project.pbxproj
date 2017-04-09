@@ -14,6 +14,7 @@
 		87DAE5C71E9AD07B004A75C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87DAE5C51E9AD07B004A75C0 /* LaunchScreen.storyboard */; };
 		87DAE5D21E9AD07B004A75C0 /* SwiftExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DAE5D11E9AD07B004A75C0 /* SwiftExamplesTests.swift */; };
 		87DAE5DD1E9AD07B004A75C0 /* SwiftExamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DAE5DC1E9AD07B004A75C0 /* SwiftExamplesUITests.swift */; };
+		87DAE5EC1E9AD09E004A75C0 /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DAE5EB1E9AD09E004A75C0 /* DateFormat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		87DAE5D81E9AD07B004A75C0 /* SwiftExamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftExamplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87DAE5DC1E9AD07B004A75C0 /* SwiftExamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExamplesUITests.swift; sourceTree = "<group>"; };
 		87DAE5DE1E9AD07B004A75C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87DAE5EB1E9AD09E004A75C0 /* DateFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		87DAE5BB1E9AD07B004A75C0 /* SwiftExamples */ = {
 			isa = PBXGroup;
 			children = (
+				87DAE5EA1E9AD087004A75C0 /* DateFormatter */,
 				87DAE5BC1E9AD07B004A75C0 /* AppDelegate.swift */,
 				87DAE5BE1E9AD07B004A75C0 /* ViewController.swift */,
 				87DAE5C01E9AD07B004A75C0 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				87DAE5DE1E9AD07B004A75C0 /* Info.plist */,
 			);
 			path = SwiftExamplesUITests;
+			sourceTree = "<group>";
+		};
+		87DAE5EA1E9AD087004A75C0 /* DateFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				87DAE5EB1E9AD09E004A75C0 /* DateFormat.swift */,
+			);
+			name = DateFormatter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			files = (
 				87DAE5BF1E9AD07B004A75C0 /* ViewController.swift in Sources */,
 				87DAE5BD1E9AD07B004A75C0 /* AppDelegate.swift in Sources */,
+				87DAE5EC1E9AD09E004A75C0 /* DateFormat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
